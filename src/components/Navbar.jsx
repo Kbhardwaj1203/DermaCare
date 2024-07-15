@@ -1,32 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { useCart } from '../context/CartContext';
-
-// const Navbar = () => {
-//   const { cart } = useCart();
-
-//   return (
-//     <nav className="navbar">
-//       <div className="container">
-//         <Link to="/" className="logo">SkinCare</Link>
-//         <div className="nav-links">
-//           <Link to="/">Home</Link>
-//           <Link to="/about">About Us</Link>
-//           <Link to="/products">Products</Link>
-//           <Link to="/offers">Offers</Link>
-//           <Link to="/contact">Contact Us</Link>
-//         </div>
-//         <Link to="/cart" className="cart-icon">
-//           🛒 {cart.length > 0 && <span className="cart-count">{cart.length}</span>}
-//         </Link>
-//         <button className="auth-button">Login/Signup</button>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
